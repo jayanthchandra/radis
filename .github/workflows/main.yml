@@ -12,5 +12,5 @@
       - uses: actions/checkout@v2
       - name: Python Syntax Checker
         uses: clauss/Find-Python-syntax-errors-action@v0.2.0
-      - uses: Black Code Formatter
-        run: lgeiger/black-action@v1.0.1
+      - name: Black Code Formatter
+        uses: lgeiger/black-action@v1.0.1
